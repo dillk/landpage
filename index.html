@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Protótipo Figma</title>
+   <style>
+      body{
+         margin: 0px;
+         padding: 0px;
+      }
+      .container {
+         width: 100%;
+         height: 800px;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+      }
+      .header {
+         width: 100%;
+         height: 80px;
+         background: #9D91F1;
+      }
+      .logo {
+         float: left;
+         margin-left: 20px;
+         padding: 20px 0px;
+      }
+      .menu {
+         float: right;
+         width: 400px;
+         margin-right: 20px;
+      }
+      .menu ul {
+        padding-left: 250px;
+         list-style: none;
+      }
+      .menu ul li {
+         float: left;
+         margin-left: 20px;
+         padding: 15px 0px;
+      }
+      .menu ul li a {
+         color: #000000;
+         text-decoration: none;
+         font-size: 0.7vw;
+      }
+      .main-content {
+         width: 100%;
+         height: 600px;
+         background-color: #f2f2f2;
+      }
+      .slider {
+         width: 100%;
+         height: 400px;
+         background-color: #d5d5d5;
+      }
+      .sidebar {
+         width: 220px;
+         height: 200px;
+         background-color: #e2e2e2;
+         float: right;
+         margin-right: 20px;
+      }
+      .sidebar ul {
+         margin: 0px;
+         padding: 0px;
+         list-style: none;
+      }
+      .sidebar ul li {
+         padding: 10px 0px;
+      }
+      .sidebar ul li a {
+         color: #0a0a0a;
+         text-decoration: none;
+      }
+      .video {
+        width: 50%;
+        overflow: hidden;
+        padding-top: 8vw;
+        padding-left: 8vw;
+      }
+      .text {
+        width: 50%; 
+        display: flex;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 16px;
+        margin: 15px 0;
+        text-align: justify;
+      }
+
+      .textovideo {
+        margin-left: 70px;
+      }
+      .textovideo h3 {
+        font-size: 2vw;
+      }
+      .aprender {
+        padding: 60px;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="header">
+         <div class="logo">
+         </div>
+         <div class="menu">
+            <ul>
+               <li><a href="#">Acesse sua conta</a></li>
+            </ul>
+         </div>
+      </div>
+      <section id="video-section" style="display: flex; justify-content: center; align-items: center; padding: 50px; ">
+        <video width="800" height="600" controls>
+          <source style="box-shadow: 1px 1px 10px #000000;" src="video.mp4" type="video/mp4">
+        </video>
+        <div class = "textovideo">
+          <h3>Descubra como ganhar dinheiro com o marketing digital </h3>
+          <p>Você ainda relaciona o marketing digital com termos como “surfar na web”? Ou vê “marketing digital” e imagina um adolescente fazendo dancinhas no Instagram? Então chegou a hora de se atualizar!</p>
+          <button style="border-radius: 5px; box-shadow: 1px 1px 10px #000000; background-color: #9D91F1; width: 40vw; font-size: 2vw;">Inscrever Agora</button>
+        </div>
+      </section>
+      <div style="background-color: #9D91F1; width: 100%;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="padding: 20px;">
+                <h1 style="padding-left: 200px; padding-top: 100px; padding-right: 100px; color: rgb(0, 0, 0);">Meu nome é Manoela Henck, estou no mercado de Marketing Digital a mais de 8 anos, é tenho com garantia que esse mercado é um grande mercado a ser explorado, tendo várias oportunidades de ganhar dinheiro.</h1>
+            </div>
+            <div style="padding: 20px;">
+                <img src="./images/lifestyle-beauty-and-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-over-white-background-smiling-with-arms-crossed-over-chest-150x150.jpg" style="padding-top: 20px; padding-left: 100px; border-radius: 50%; width: 325px; height: 325px;">
+            </div>
+        </div>
+        
+    </div>
+    <div class="aprender">
+        <h3>O QUE VOCÊ VAI APRENDER</h3>
+        <ul>
+          <li>Ferramentas e técnicas: Aulas práticas e ministradas por André Siqueira, muitos materiais complementares e artigos.</li>
+          <li>Tempo de aula: Sugerimos 3 horas para assistir às aulas e conferir ao menos alguns dos materiais complementares.</li>
+          <li>Metodologia: Você vai conferir aulas em vídeo com direcionamento claro e prático.</li>
+          <li>Certificado: Ao final do curso você receberá seu certificado digital.</li>
+        </ul>
+        <button style="border-radius: 5px; box-shadow: 1px 1px 10px #000000; background-color: #9D91F1; width: 40vw; font-size: 2vw;">Inscrever Agora</button>
+      </div>
+
+      <div style="background-color: #9D91F1; display: flex; flex-direction: row;  justify-content: space-evenly;">
+        <div>
+          <img src="./images/images.jpg"  width="100" height="100" style="margin-top: 20px; border-radius: 50%; width: 250px; height: 250px;">
+          <p style="text-align: center; color: #000000; font-weight: bold;">Entender como criar um conteúdo único e com personalidade</p>
+        </div>
+        <div>
+          <img src="./images/lifestyle-beauty-and-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-over-white-background-smiling-with-arms-crossed-over-chest-150x150.jpg" width="100" height="100" style="margin-top: 20px; border-radius: 50%; width: 250px; height: 250px;">
+          <p style="text-align: center; color: #000000; font-weight: bold;">Inserir campanhas de Mídias Pagas na sua estratégia de Marketing</p>
+        </div>
+        <div>
+          <img src="./images/lifestyle-beauty-and-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-over-white-background-smiling-with-arms-crossed-over-chest-150x150.jpg" width="100" height="100" style="margin-top: 20px; border-radius: 50%; width: 250px; height: 250px;">
+          <p style="text-align: center; color: #000000; font-weight: bold;">Compreender o que são boas taxas de abertura em Email e como consegui-las</p>
+        </div>
+        <div>
+            <img src="./images/lifestyle-beauty-and-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-over-white-background-smiling-with-arms-crossed-over-chest-150x150.jpg" width="100" height="100" style="margin-top: 20px; border-radius: 50%; width: 250px; height: 250px;">
+            <p style="text-align: center; color: #000000; font-weight: bold;">Estabelecer metas e mensurar os resultados da área de Marketing</p>
+          </div>
+    </div>
+   </div>
+</body>
+</html>
